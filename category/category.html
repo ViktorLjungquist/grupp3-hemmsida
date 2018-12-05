@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Jackor | Categories</title>
+  <title>Totoro jackets | Categories</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" media="screen" href="category.css" />
 <body>
@@ -12,34 +12,36 @@
   <article>
     <nav>
         <ul class="navigation">
-          <li><a href="..\startsida\StartSida.html">Home</a></li>
-          <li class="dropdown"><button class="dropbtn"><a href="category.html">Categories</a></button>
+          <li class="meny0"><a href="../startsida/StartSida.html">Home</a></li>
+          <li class="meny1"><a href="../category/category.html">Categories</a></li>
+          <li class="meny2"><a href="../customerpage/customerpage.html">Customer</a></li>
+          <li class="meny3"><a href="../checkout/cart.html">Checkout</a></li>
+          <li class="meny4"><a href="../About/About.html">About</a></li>
+          <!-- Kod för "Dropdown-menu"
+            <li class="dropdown"><button class="dropbtn"><a href="category.html">Categories</a></button>
             <div class="dropdown-content">
               <a href="..\Product Page\SpringProduct.html">Springjacket</a>
               <a href="..\Product Page\SummerProduct.html">Summerjackets</a>
               <a href="..\Product Page\FallProduct.html">Falljackets</a>
               <a href="..\Product Page\WinterProduct.html">Winterjackets</a>
               <a href="#">All products</a>
-            </div></li>
+            </div></li> -->
         </ul>
     </nav>
-      <ul class="cmenu">
-        <li><a href="..\Product Page\SpringProduct.html">Springjackets</a></li>
-        <li><a href="..\Product Page\SummerProduct.html">Summerjackets</a></li>
-        <li><a href="..\Product Page\FallProduct.html">Falljackets</a></li>
-        <li><a href="..\Product Page\WinterProduct.html">Winterjackets</a></li>
-      </ul>
-
-      <!-- <a href="#">Vårjackor</a>
-      <a href="#">Sommarjackor</a>
-      <a href="#">Höstjackor</a>
-      <a href="#">Vinterjackor</a> -->
-
-      <p>Kort beskrivning av vårjackor</p>
-      <p>Kort beskrivning av sommarjackor</p>
-      <p>Kort beskrivning av höstjackor</p>
-      <p>Kort beskrivning av vinterjackor</p>
-    
+      <section class="wrapper">
+        <div class="w1">
+            <ul class="cmenu"><li><a href="..\Product Page\SpringProduct.html">Springjackets</a></li>
+            </ul><p>Kort beskrivning av vårjackor</p></div>
+        <div class="w2">
+            <ul class="cmenu"><li><a href="..\Product Page\SummerProduct.html">Summerjackets</a></li>
+            </ul><p>Kort beskrivning av sommarjackor</p></div>
+        <div class="w3">
+            <ul class="cmenu"><li><a href="..\Product Page\FallProduct.html">Falljackets</a></li>
+            </ul><p>Kort beskrivning av höstjackor</p></div>
+        <div class="w4">
+            <ul class="cmenu"><li><a href="..\Product Page\WinterProduct.html">Winterjackets</a></li>
+            </ul><p>Kort beskrivning av vinterjackor</p></div>
+      </section>
     <footer class="ftext"><p>&copy; 2017
         <script>
             new Date().getFullYear()>2017&&document.write("- "+new Date().getFullYear());
