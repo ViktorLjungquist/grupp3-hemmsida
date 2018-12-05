@@ -9,14 +9,16 @@
 <body>
 	<section>
 		<header class="heading"><h1>Welcome to Totorojackets!</h1></header>
-  <article>
     <nav>
         <ul class="navigation">
-          <li><a href="StartSida.html">Home Page</a></li>
-          <li><a href="customerpage.html">Customer Page</a></li>
-		  <li><a href="......">Checkout Page</a></li>
+            <li class="meny0"><a href="../startsida/StartSida.html">Home</a></li>
+            <li class="meny1"><a href="../category/category.html">Categories</a></li>
+            <li class="meny2"><a href="......">Customer</a></li>
+            <li class="meny3"><a href="../checkout/cart.html">Checkout</a></li>
+            <li class="meny4"><a href="../About/About.html">About</a></li>
         </ul>
     </nav>
+	<article>
 	<h2 style="text-align: center;"> Falljacket </h2>
 		<p>	
 			A Falljacket of the highest quality. Nearly produced, organic and sick fair! 
@@ -34,12 +36,11 @@
 			<input type="text" name="size" size="4" />
 			<br/>
 			<br/>
-			<button action="checkoutpage.html" class="favorite styled" type="button" style="padding: 15px 32px;">  Buy </button>
+			<button onclick="location.href='../checkout/cart.html';" class="favorite styled" type="button" style="padding: 15px 32px;">  Buy </button>
 		</p>
-		 
-		<section class="imagesection">
-		<image class="imageclass" src="images/FallJacket.jpg" width="50%" height="20%" alt="A jacket"/>
-		</section>
+		<figure id="imagesection">
+		<image class="imageclass" src="images/FallJacket.jpg" width="50%" height="20%" alt="A jacket" />
+		</figure>
 	
     <footer class="ftext"><p>&copy; 2017
         <script>
