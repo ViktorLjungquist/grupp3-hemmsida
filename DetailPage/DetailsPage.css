@@ -9,14 +9,12 @@ body {
 .heading {
   text-align: center;
 }
-
 #imagesection {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 40%;
 }
-
 .ftext {
   text-align: center;
 }
@@ -37,8 +35,7 @@ body {
 }
 .navigation a:hover {
   background: darken(green, 5%);
-<<<<<<< HEAD
 }
-=======
+p {
+	text-align: center;
 }
->>>>>>> 591b494173329137b9f066a8d6fa6c6af40bca76
